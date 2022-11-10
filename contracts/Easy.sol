@@ -11,7 +11,6 @@ contract Easy {
     ITuringHelper public myHelper;
 
     uint256 public randomNumber;
-    bytes public returnValue;
 
     constructor(address _helper) {
         helperAddr = _helper;
